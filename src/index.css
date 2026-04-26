@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lobster&family=Pacifico&family=Creepster&family=Bangers&family=Righteous&family=Cinzel+Decorative:wght@700&family=Abril+Fatface&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-script: "Kaushan Script", cursive;
+  --font-display: "Playfair Display", serif;
+  --font-lobster: "Lobster", cursive;
+  --font-pacifico: "Pacifico", cursive;
+  --font-creepster: "Creepster", cursive;
+  --font-bangers: "Bangers", cursive;
+  --font-righteous: "Righteous", cursive;
+  --font-cinzel: "Cinzel Decorative", cursive;
+  --font-abril: "Abril Fatface", cursive;
+}
+
+@layer base {
+  body {
+    @apply antialiased overflow-x-hidden selection:bg-black selection:text-white bg-white text-black font-sans;
+  }
+}
+
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* Hide scrollbar but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
