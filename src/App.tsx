@@ -445,7 +445,7 @@ export default function App() {
             <div className="flex items-center">
               <span className="text-zinc-300">© 2026</span>
               <span className="mx-3 opacity-20 text-white">|</span>
-              <span className="font-bold text-zinc-100">Kukla Digital Strategy</span>
+              <span className="font-bold text-zinc-100">Kukla Studio</span>
             </div>
             <span className="hidden md:block mx-3 opacity-20 text-white">|</span>
             <div className="flex items-center relative">
