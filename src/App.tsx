@@ -8,11 +8,11 @@ import { useState, useEffect } from 'react';
 import { Menu, X, ArrowRight, Eye, Sparkles, Brush } from 'lucide-react';
 
 const LINKS = {
-  INSTAGRAM: 'https://thr.ee/kuklastudio',
-  BEHANCE: 'https://thr.ee/kuklastudio',
-  ARTSTATION: 'https://thr.ee/kuklastudio',
-  LOCATION: 'https://thr.ee/kuklastudio',
-  WHATSAPP: 'https://thr.ee/kuklastudio',
+  INSTAGRAM: 'https://instagram.com/ecuascribe/',
+  BEHANCE: '',
+  ARTSTATION: '',
+  LOCATION: 'https://share.google/j8WVFQwXIu8hKwhgm',
+  WHATSAPP: 'http://wa.link/a8q340',
   CREATOR_TG: 'https://t.me/nilshade',
 };
 
@@ -434,8 +434,6 @@ export default function App() {
 
           <div className="flex flex-wrap justify-center gap-6 sm:gap-12 md:gap-16 font-mono text-[9px] md:text-[11px] uppercase tracking-[0.4em] text-zinc-500 relative z-10">
             <a href={LINKS.INSTAGRAM} target="_blank" rel="noopener noreferrer" className="hover:text-rose-500 transition-colors">Instagram</a>
-            <a href={LINKS.BEHANCE} target="_blank" rel="noopener noreferrer" className="hover:text-rose-500 transition-colors">Behance</a>
-            <a href={LINKS.ARTSTATION} target="_blank" rel="noopener noreferrer" className="hover:text-rose-500 transition-colors">ArtStation</a>
             <a href={LINKS.LOCATION} target="_blank" rel="noopener noreferrer" className="hover:text-rose-500 transition-colors">Location</a>
           </div>
         </div>
